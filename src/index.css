@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.bg-hero {
+  background: url(/public/assets/Enactus-Hero-Banner.png) center/cover no-repeat;
+}
