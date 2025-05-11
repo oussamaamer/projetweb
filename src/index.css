@@ -11,3 +11,7 @@
 .bg-hero {
   background: url(/public/assets/Enactus-Hero-Banner.png) center/cover no-repeat;
 }
+
+.about-bg-hero {
+  background: url(/public/assets/mack.jpg) center/cover no-repeat;
+}

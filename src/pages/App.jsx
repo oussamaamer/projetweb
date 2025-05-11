@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -9,6 +10,7 @@ const App = () => {
         <Hero />
       </div>
       <main className="max-w-7xl mx-auto h-[200vh]"></main>
+      <Footer />
     </div>
   );
 };

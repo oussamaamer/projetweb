@@ -1,6 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import PlayVideo from "./ui/PlayButton";
 
 const Hero = () => {
   return (
