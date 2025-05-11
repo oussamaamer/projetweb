@@ -5,8 +5,8 @@ const Navbar = () => {
   const [activeLink, setActivLink] = useState("/");
 
   return (
-    <nav>
-      <div className="flex justify-between items-center text-white px-4 py-1 max-w-7xl mx-auto h-[60px]">
+    <nav className="sticky top-0 z-50 bg-gray-950">
+      <div className="flex justify-between items-center text-white px-4 py-1 max-w-7xl mx-auto h-[60px]  ">
         <h1 className="text-2xl">
           <Link to="/" onClick={() => setActivLink("/")}>
             <img src="/assets/logo.png" alt="enactus-logo" className="w-20" />
@@ -15,6 +15,7 @@ const Navbar = () => {
         <div className="flex gap-3 sm:gap-6">
           {navbarLinks.map((link) => (
             <Link
+              key={link.path}
               to={link.path}
               onClick={() => {
                 setActivLink(link.path);
