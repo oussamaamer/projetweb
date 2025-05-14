@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Main from "../components/main";
+import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 
 const App = () => {
