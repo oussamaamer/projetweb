@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Main from "../components/main";
 import Navbar from "../components/Navbar";
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
-      <main className="max-w-7xl mx-auto h-[200vh]"></main>
+      <Main />
       <Footer />
     </div>
   );

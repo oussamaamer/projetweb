@@ -61,16 +61,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="bg-indigo-700">
+      <div className="bg-white">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
+          <h1 className="text-4xl font-extrabold text-black sm:text-5xl sm:tracking-tight lg:text-6xl animate-fade-in-up">
             Our Mission
           </h1>
-          <p className="mt-6 max-w-lg mx-auto text-xl text-indigo-200">
-            Missions ⇒ Enactus fsbm a pour mission de mobiliser les étudiants
-            pour devenir des leaders engagés en réalisant des projets innovants
-            qui offrent des solutions durables aux défis sociaux et
-            environnementaux.
+          <p className="mt-6 max-w-lg mx-auto text-xl text-gray-600 animate-fade-in-up delay-300">
+            👉 Enactus FSBM a pour mission de mobiliser les étudiants à devenir
+            des leaders engagés, en réalisant des projets innovants qui offrent
+            des solutions durables aux défis sociaux et environnementaux.
           </p>
         </div>
       </div>
