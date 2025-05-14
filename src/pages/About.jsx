@@ -8,7 +8,7 @@ const About = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="bg-indigo-700 about-bg-hero">
+      <div className=" about-bg-hero">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
             About Our Club
@@ -21,7 +21,7 @@ const About = () => {
       </div>
 
       {/* Our Story Section */}
-      <div className="bg-white py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+      <div className="bg-blend-luminosity py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
             <div>
