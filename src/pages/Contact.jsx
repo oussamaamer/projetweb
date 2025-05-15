@@ -269,14 +269,7 @@ export default function ContactPage() {
 
         {/* Map Section */}
         <div className="mt-16 max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg">
-          <div className="bg-gray-200 h-96 w-full flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="mx-auto text-gray-600 mb-2" size={32} />
-              <p className="text-gray-700">
-                Map placeholder - your map integration would go here
-              </p>
-            </div>
-          </div>
+          <img src="/assets/mar.JPG" alt="img" />
         </div>
       </div>
     </div>
